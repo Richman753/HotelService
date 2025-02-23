@@ -1,6 +1,5 @@
-package by.test.dto;
+package by.test.hotels.dto;
 
-import jakarta.persistence.Column;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ContactsDto {
-    private String phone;
-    private String email;
+public class HistogramResponseDto {
+    private String parameter;
+    private Long count;
 }

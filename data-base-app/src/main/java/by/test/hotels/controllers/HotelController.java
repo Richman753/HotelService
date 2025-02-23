@@ -1,15 +1,11 @@
-package by.test.controllers;
+package by.test.hotels.controllers;
 
-import by.test.dto.HistogramResponseDto;
-import by.test.dto.HotelResponseDto;
-import by.test.dto.SimpleHotelResponseDto;
-import by.test.mappers.HotelMapper;
-import by.test.models.Hotel;
-import by.test.services.HotelService;
+import by.test.hotels.dto.HotelResponseDto;
+import by.test.hotels.dto.SimpleHotelResponseDto;
+import by.test.hotels.mappers.HotelMapper;
+import by.test.hotels.services.HotelService;
 import org.springframework.web.bind.annotation.*;
 
-import javax.lang.model.util.ElementKindVisitor7;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 

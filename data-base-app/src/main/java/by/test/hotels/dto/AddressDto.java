@@ -1,4 +1,4 @@
-package by.test.dto;
+package by.test.hotels.dto;
 
 import jakarta.persistence.Column;
 import lombok.AllArgsConstructor;

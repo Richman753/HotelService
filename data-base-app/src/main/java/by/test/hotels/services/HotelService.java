@@ -1,12 +1,9 @@
-package by.test.services;
+package by.test.hotels.services;
 
-import by.test.dto.HistogramResponseDto;
-import by.test.models.Hotel;
-import by.test.repositories.HotelRepo;
-import jakarta.persistence.criteria.CriteriaBuilder;
+import by.test.hotels.models.Hotel;
+import by.test.hotels.repositories.HotelRepo;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

@@ -1,14 +1,12 @@
-package by.test.repositories;
+package by.test.hotels.repositories;
 
-import by.test.dto.HistogramResponseDto;
-import by.test.models.Hotel;
+import by.test.hotels.models.Hotel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
-import java.util.Map;
 
 @Repository
 public interface HotelRepo extends JpaRepository<Hotel, Integer> {

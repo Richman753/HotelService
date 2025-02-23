@@ -1,4 +1,4 @@
-package by.test.models;
+package by.test.hotels.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
@@ -6,18 +6,16 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.LocalTime;
-
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 @Entity
-public class ArrivalTime {
+public class Contacts {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    @Column(name = "checkIn")
-    private String checkIn;
-    @Column(name = "checkOut")
-    private String checkOut;
+    @Column(name = "phone")
+    private String phone;
+    @Column(name = "email")
+    private String email;
 }

@@ -1,8 +1,5 @@
-package by.test.dto;
+package by.test.hotels.dto;
 
-import by.test.models.Address;
-import by.test.models.ArrivalTime;
-import by.test.models.Contacts;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

@@ -1,8 +1,8 @@
-package by.test.mappers;
+package by.test.hotels.mappers;
 
-import by.test.dto.HotelResponseDto;
-import by.test.dto.SimpleHotelResponseDto;
-import by.test.models.Hotel;
+import by.test.hotels.dto.HotelResponseDto;
+import by.test.hotels.dto.SimpleHotelResponseDto;
+import by.test.hotels.models.Hotel;
 import org.springframework.stereotype.Service;
 
 @Service

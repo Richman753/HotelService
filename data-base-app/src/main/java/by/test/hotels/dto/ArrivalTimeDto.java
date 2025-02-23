@@ -1,4 +1,4 @@
-package by.test.dto;
+package by.test.hotels.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
