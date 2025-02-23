@@ -1,0 +1,20 @@
+server:
+  port: 8092
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:mydb
+    driver-class-name: org.h2.Driver
+    username: myuser
+    password: mypassword
+    initialization-mode: always
+  jpa:
+    show-sql: true
+    hibernate:
+      dialect: "org.hibernate.dialect.H2Dialect"
+      ddl-auto: validate
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
+  liquibase:
+    change-log: classpath:/db.changelog.xml

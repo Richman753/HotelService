@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+    <changeSet author="admin" id="1">
+        <sqlFile path="1_hotelsSchema.sql"
+                 relativeToChangelogFile="true"/>
+    </changeSet>
+    <changeSet author="admin" id="2">
+        <sqlFile path="2_addressSchema.sql"
+                 relativeToChangelogFile="true"/>
+    </changeSet>
+    <changeSet author="admin" id="3">
+        <sqlFile path="3_contactsSchema.sql"
+                 relativeToChangelogFile="true"/>
+    </changeSet>
+    <changeSet author="admin" id="4">
+        <sqlFile path="4_arrivalTimeSchema.sql"
+                 relativeToChangelogFile="true"/>
+    </changeSet>
+    <changeSet author="admin" id="5">
+        <sqlFile path="5_amenitiesSchema.sql"
+                 relativeToChangelogFile="true"/>
+    </changeSet>
+</databaseChangeLog>

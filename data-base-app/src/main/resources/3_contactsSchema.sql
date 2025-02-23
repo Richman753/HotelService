@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS CONTACTS
+(
+id INT PRIMARY KEY AUTO_INCREMENT,
+phone VARCHAR(255) not null,
+email Varchar(255) not null
+)
