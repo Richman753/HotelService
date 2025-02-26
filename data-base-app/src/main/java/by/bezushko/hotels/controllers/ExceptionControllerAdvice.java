@@ -1,4 +1,4 @@
-package by.test.hotels.controllers;
+package by.bezushko.hotels.controllers;
 
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ControllerAdvice;

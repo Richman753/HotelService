@@ -1,4 +1,4 @@
-package by.test.hotels.models;
+package by.bezushko.hotels.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;

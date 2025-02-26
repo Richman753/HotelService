@@ -1,4 +1,4 @@
-package by.test.hotels.dto;
+package by.bezushko.hotels.dto;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.Column;

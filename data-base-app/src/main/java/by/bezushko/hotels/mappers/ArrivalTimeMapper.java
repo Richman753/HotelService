@@ -1,7 +1,7 @@
-package by.test.hotels.mappers;
+package by.bezushko.hotels.mappers;
 
-import by.test.hotels.dto.ArrivalTimeDto;
-import by.test.hotels.models.ArrivalTime;
+import by.bezushko.hotels.dto.ArrivalTimeDto;
+import by.bezushko.hotels.models.ArrivalTime;
 import org.springframework.stereotype.Service;
 
 @Service

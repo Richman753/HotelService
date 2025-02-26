@@ -1,7 +1,7 @@
-package by.test.hotels.services;
+package by.bezushko.hotels.services;
 
-import by.test.hotels.models.Hotel;
-import by.test.hotels.repositories.HotelRepo;
+import by.bezushko.hotels.models.Hotel;
+import by.bezushko.hotels.repositories.HotelRepo;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;

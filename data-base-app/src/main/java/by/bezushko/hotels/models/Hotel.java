@@ -1,4 +1,4 @@
-package by.test.hotels.models;
+package by.bezushko.hotels.models;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

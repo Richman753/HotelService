@@ -1,6 +1,6 @@
-package by.test.hotels.repositories;
+package by.bezushko.hotels.repositories;
 
-import by.test.hotels.models.Hotel;
+import by.bezushko.hotels.models.Hotel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

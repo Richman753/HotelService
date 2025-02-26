@@ -1,4 +1,4 @@
-package by.test.hotels.dto;
+package by.bezushko.hotels.dto;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
@@ -12,7 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class HotelResponseDto {
-    @Schema(description = "ИД отеля")
+    @Schema(description = "ИД отеля", hidden = true)
     private int id;
     @Schema(description = "Название отеля")
     private String name;

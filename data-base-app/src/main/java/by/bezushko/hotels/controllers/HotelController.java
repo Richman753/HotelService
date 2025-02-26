@@ -1,9 +1,9 @@
-package by.test.hotels.controllers;
+package by.bezushko.hotels.controllers;
 
-import by.test.hotels.dto.HotelResponseDto;
-import by.test.hotels.dto.SimpleHotelResponseDto;
-import by.test.hotels.mappers.HotelMapper;
-import by.test.hotels.services.HotelService;
+import by.bezushko.hotels.dto.HotelResponseDto;
+import by.bezushko.hotels.dto.SimpleHotelResponseDto;
+import by.bezushko.hotels.mappers.HotelMapper;
+import by.bezushko.hotels.services.HotelService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;

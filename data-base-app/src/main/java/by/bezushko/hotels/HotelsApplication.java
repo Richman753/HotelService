@@ -1,4 +1,4 @@
-package by.test.hotels;
+package by.bezushko.hotels;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
