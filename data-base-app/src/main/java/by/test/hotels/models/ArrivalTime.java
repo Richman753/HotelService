@@ -15,7 +15,7 @@ import java.time.LocalTime;
 public class ArrivalTime {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
     @Column(name = "checkIn")
     private String checkIn;
     @Column(name = "checkOut")

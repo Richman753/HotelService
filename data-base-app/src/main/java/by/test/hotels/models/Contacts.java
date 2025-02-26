@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 public class Contacts {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
     @Column(name = "phone")
     private String phone;
     @Column(name = "email")
